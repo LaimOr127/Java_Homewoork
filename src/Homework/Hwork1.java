@@ -1,3 +1,5 @@
+package Homework;
+
 package ru.mirea.lab1;
 
 //Написать программу, в результате которой массив чисел
