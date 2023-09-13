@@ -1,4 +1,3 @@
-package ru.mirea.ikbo1218.grachev;
 
 public class Book {
     private String name, author, publisher;
