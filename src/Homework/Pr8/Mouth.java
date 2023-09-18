@@ -1,4 +1,4 @@
-
+package Homework.Pr8;
 
 public class Mouth extends Good{
     private int dpi;

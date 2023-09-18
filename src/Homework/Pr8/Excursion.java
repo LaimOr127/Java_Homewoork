@@ -1,4 +1,4 @@
-
+package Homework.Pr8;
 
 public class Excursion implements Priceable{
     private String name;

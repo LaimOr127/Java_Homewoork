@@ -1,4 +1,4 @@
-
+package Homework.Pr6;
 
 public abstract class Furniture {
     private int legCount;

@@ -1,4 +1,4 @@
-
+package Homework.Pr6;
 
 public class Bed extends Furniture {
     private int personCount, maxWeight;

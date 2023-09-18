@@ -1,4 +1,4 @@
-
+package Homework.Pr8;
 
 public class Laptop extends Good{
     private String model;
