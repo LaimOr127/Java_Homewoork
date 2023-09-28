@@ -1,33 +1,69 @@
 package Homework.Pr14;
 
+
+import java.util.ArrayList;
+
+/**
+ * Main class for starting program and tests.
+ */
 public class Main {
+
     public static void main(String[] args) {
-        // Создание ожидаемого списка с ограничением на 5 элементов
-        BoundedWaitList<String> boundedWaitList = new BoundedWaitList<>(5);
+        ArrayList<String> al = new ArrayList<>();
+        al.add("Hi2");
+        al.add("Hi3");
 
-        // Добавление элементов
-        boundedWaitList.add("Element 1");
-        boundedWaitList.add("Element 2");
-        boundedWaitList.add("Element 3");
+        WaitList<String> wl = new WaitList<>();
+        wl.add("Hi");
+        wl.add("Hi2");
+        wl.add("Hi3");
+        System.out.println(wl);
+        System.out.println(wl.remove());
+        System.out.println(wl);
+        System.out.println(wl.isEmpty());
+        System.out.println(wl.contains("Hi"));
+        System.out.println(wl.containsAll(al));
 
-        // Удаление элемента
-        String removedElement = boundedWaitList.remove();
-        System.out.println("Removed element: " + removedElement);
+        System.out.println();
 
-        // Проверка на наличие элемента
-        boolean containsElement = boundedWaitList.contains("Element 2");
-        System.out.println("Contains Element 2: " + containsElement);
+        BoundedWaitList<String> bwl = new BoundedWaitList<>(3);
+        bwl.add("foo");
+        bwl.add("foo2");
+        bwl.add("bar");
+        System.out.println(bwl);
+        try{
+            bwl.add("bar2");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        System.out.println();
+        System.out.println(bwl);
+        System.out.println(bwl.getCapacity());
 
-        // Создание нечестного ожидаемого списка
-        UnfairWaitList<String> unfairWaitList = new UnfairWaitList<>();
-        unfairWaitList.add("Element A");
-        unfairWaitList.add("Element B");
+        System.out.println();
+        bwl = new BoundedWaitList<String>(al);
+        System.out.println(bwl.getCapacity());
+        try{
+            bwl.add("bar2");
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
-        // Перемещение элемента в конец
-        unfairWaitList.moveToBack("Element A");
+        System.out.println();
 
-        // Удаление элемента
-        unfairWaitList.remove("Element B");
+        UnfairWaitList<Integer> uwl = new UnfairWaitList<>();
+        uwl.add(1);
+        uwl.add(2);
+        uwl.add(23);
+        uwl.add(5);
+        uwl.add(5);
+        uwl.add(6);
+        System.out.println(uwl);
+        uwl.remove(5);
+        System.out.println(uwl);
+        uwl.moveToBack(23);
+        System.out.println(uwl);
+
+
     }
 }
-
