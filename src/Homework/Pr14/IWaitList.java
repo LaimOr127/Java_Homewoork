@@ -4,12 +4,7 @@ package Homework.Pr14;
 
 import java.util.Collection;
 
-/**
- * Interface IWaitList with methods for implementors.
- * @param <E> Type of elements to store in WaitList.
- * @author aleksandrgracev
- *  * @version 1.0
- */
+
 public interface IWaitList <E> {
     /**
      * Method to add element into end of queue.
