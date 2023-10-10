@@ -3,14 +3,7 @@ package Homework.Pr14;
 
 import java.util.Collection;
 
-/**
- * Class of queue with constant max {@link BoundedWaitList#capacity}.
- * @param <E> Type of stored data.
- * @see IWaitList
- * @see WaitList
- * @author aleksandrgracev
- * @version 1.2
- */
+
 public class BoundedWaitList <E> extends WaitList<E> {
 
     /**
