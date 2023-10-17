@@ -1,4 +1,4 @@
-package Homework.Pr4;
+package Pr4;
 public class Book {
     private String name, author, publisher;
     private int edition, publishYear;

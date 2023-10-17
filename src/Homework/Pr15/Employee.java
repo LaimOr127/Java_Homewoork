@@ -1,4 +1,4 @@
-package Homework.Pr15;
+package Pr15;
 
 public class Employee {
     private String name;

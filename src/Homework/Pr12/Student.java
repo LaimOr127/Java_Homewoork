@@ -1,4 +1,4 @@
-package Homework.Pr12;
+package Pr12;
 
 
 public class Student implements Comparable {

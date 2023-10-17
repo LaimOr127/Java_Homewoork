@@ -1,4 +1,4 @@
-package Homework.Pr16;
+package Pr16;
 
 import java.util.Scanner;
 

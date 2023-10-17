@@ -1,4 +1,4 @@
-package Homework.Pr5;
+package Pr5;
 import java.util.Scanner;
 
 // Абстрактный класс Shape

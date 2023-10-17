@@ -1,4 +1,4 @@
-package Homework.Pr15;
+package Pr15;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;

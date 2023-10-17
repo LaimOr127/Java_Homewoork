@@ -1,4 +1,4 @@
-package Homework.Pr13.GUI;
+package Pr13.GUI;
 
 import javax.swing.*;
 import java.awt.*;

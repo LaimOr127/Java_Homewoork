@@ -1,4 +1,4 @@
-package Homework.Pr12;
+package Pr12;
 
 
 import java.util.ArrayList;

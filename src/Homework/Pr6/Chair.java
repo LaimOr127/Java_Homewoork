@@ -1,4 +1,4 @@
-package Homework.Pr6;
+package Pr6;
 
 public class Chair extends Furniture {
 

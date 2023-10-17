@@ -1,4 +1,4 @@
-package Homework.Pr18;
+package Pr18;
 
 import java.io.Serializable;
 

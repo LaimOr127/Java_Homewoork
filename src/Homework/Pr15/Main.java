@@ -1,4 +1,4 @@
-package Homework.Pr15;
+package Pr15;
 
 public class Main {
     public static void main(String[] args) {

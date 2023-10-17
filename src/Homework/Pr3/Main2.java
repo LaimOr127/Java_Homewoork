@@ -1,4 +1,4 @@
-package Homework.Pr3;
+package Pr3;
 import java.util.Scanner;
 
 public class Main2 {

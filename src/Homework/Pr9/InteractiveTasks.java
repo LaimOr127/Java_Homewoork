@@ -1,4 +1,4 @@
-package Homework.Pr9;
+package Pr9;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

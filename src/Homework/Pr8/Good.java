@@ -1,4 +1,4 @@
-package Homework.Pr8;
+package Pr8;
 
 public abstract class Good implements Priceable {
     private double price;

@@ -1,4 +1,4 @@
-package Homework.Pr17;
+package Pr17;
 
 import java.util.*;
 

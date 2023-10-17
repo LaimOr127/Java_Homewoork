@@ -1,4 +1,4 @@
-package Homework.Pr14;
+package Pr14;
 
 
 
@@ -6,7 +6,13 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-
+/**
+ * Base class WaitList with base functionality and minimum needed field - {@link WaitList#components} for storing data.
+ * @param <E> Type of stored data.
+ * @see IWaitList
+ * @author aleksandrgracev
+ * @version 1.0
+ */
 public class WaitList <E> implements IWaitList<E> {
     /**
      * Field for storing data. FIFO queue from standard library.
